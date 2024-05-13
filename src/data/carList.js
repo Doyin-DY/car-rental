@@ -1,0 +1,81 @@
+import { car_rental_1, car_rental_2, car_rental_3, car_rental_4, car_rental_5, car_rental_6, car_rental_7, car_rental_8, car_rental_9, car_rental_10, carlist1, carlist2, carlist3, carlist4, carlist5, carlist6 } from "../assets/images";
+
+
+
+export const carListData = [
+    {
+        id: "23410",
+        name: "BMW UX",
+        price: 100,
+        image: [car_rental_3, carlist1, carlist2, carlist3],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim natus nesciunt eum corporis quis perspiciatis expedita culpa magni quisquam atque delectus, iure sed doloremque suscipit itaque eligendi sequi quia.",
+        aosDelay: "0",
+        featured: true,
+    },
+    {
+        id: "23411",
+        name: "KIA UX",
+        price: 140,
+        image: [car_rental_2, carlist6, carlist5, carlist4],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim natus nesciunt eum corporis quis perspiciatis expedita culpa magni quisquam atque delectus, iure sed doloremque suscipit itaque eligendi sequi quia.",
+        aosDelay: "500",
+        featured: true,
+    },
+    {
+        id: "23412",
+        name: "BMW UX",
+        price: 150,
+        image: [car_rental_4, carlist2, carlist5, carlist6],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim natus nesciunt eum corporis quis perspiciatis expedita culpa magni quisquam atque delectus, iure sed doloremque suscipit itaque eligendi sequi quia.",
+        aosDelay: "1000",
+        featured: true,
+    },
+    {
+        id: "23413",
+        name: "BENZ UX",
+        price: 120,
+        image: [car_rental_1, carlist3, car_rental_2, carlist1],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim natus nesciunt eum corporis quis perspiciatis expedita culpa magni quisquam atque delectus, iure sed doloremque suscipit itaque eligendi sequi quia.",
+        featured: false,
+    },
+    {
+        id: "23414",
+        name: "JEEP UX",
+        price: 125,
+        image: [car_rental_5, carlist4, carlist2, carlist6],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim natus nesciunt eum corporis quis perspiciatis expedita culpa magni quisquam atque delectus, iure sed doloremque suscipit itaque eligendi sequi quia.",
+        featured: false,
+    },
+    {
+        id: "23415",
+        name: "FORD UX",
+        price: 140,
+        image: [car_rental_6, carlist5, carlist6, carlist3],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim natus nesciunt eum corporis quis perspiciatis expedita culpa magni quisquam atque delectus, iure sed doloremque suscipit itaque eligendi sequi quia.",
+        featured: false,
+    },
+    {
+        id: "23416",
+        name: "BMW UX",
+        price: 150,
+        image: [car_rental_7, carlist3, carlist6, carlist2],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim natus nesciunt eum corporis quis perspiciatis expedita culpa magni quisquam atque delectus, iure sed doloremque suscipit itaque eligendi sequi quia.",
+        featured: false,
+    },
+    {
+        id: "23417",
+        name: "TOYOTA UX",
+        price: 100,
+        image: [car_rental_8, carlist6, carlist5, carlist2],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim natus nesciunt eum corporis quis perspiciatis expedita culpa magni quisquam atque delectus, iure sed doloremque suscipit itaque eligendi sequi quia.",
+        featured: false,
+    },
+    {
+        id: "23418",
+        name: "BENZ UX",
+        price: 150,
+        image: [ car_rental_10, carlist2, carlist4, carlist6 ],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis enim natus nesciunt eum corporis quis perspiciatis expedita culpa magni quisquam atque delectus, iure sed doloremque suscipit itaque eligendi sequi quia.",
+        featured: false,
+    },
+];

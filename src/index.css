@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,
+*::before,
+*::after {
+  transition: all 0.30s ease-in-out;
+  font-family: "Roboto", sans-serif;
+}
+@layer utilities {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .shad {
+    box-shadow: 4px 2px 16px -2px #1c64f24d;
+  }
+  .button-outline{
+    @apply rounded-md 
+    border-2
+    border-primary
+    hover:bg-primary/80
+    hover:text-black
+    duration-500 py-2 px-6
+    text-primary 
+    tracking-wider;
+
+  }
+}
